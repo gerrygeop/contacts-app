@@ -11,7 +11,7 @@ function ContactList({ contacts, onDelete }) {
                   onDelete={onDelete}
                   {...contact}
                />
-            ))
+            )).reverse()
          }
       </div>
    );
